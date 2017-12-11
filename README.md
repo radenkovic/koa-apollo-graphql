@@ -1,23 +1,29 @@
-# Apollo GraphQL + Koa Boilerplate
+# Apollo GraphQL + Koa Boilerplate 
 
 Utterly minimal and nice starter / boilerplate for Apollo GraphQL server that
 runs on Koa.
 
+
+![Apollo GraphQL, Koa Server](https://i.imgur.com/kWj1qHm.png)
+
+
 Includes:
 
-- Koa 2
-- Apollo GraphQL Server
+- Koa 2 ✨
+- Apollo GraphQL Server (with GraphiQL)
 - GraphQL Tools
 - ES6 Out of the box (Babel) 🤘
 - Nice Linter
 - Travis Builds
 - Out-of-the-box working example 💥
 
+
 ## Installation
 
 1. `git clone https://github.com/radenkovic/koa-apollo-graphql graphql-server`
 2. `cd graphql-server`
 3. `yarn`
+
 
 ## Scripts
 
