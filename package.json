@@ -1,0 +1,38 @@
+{
+  "name": "koa-graphql",
+  "version": "1.0.0",
+  "description": "Minimal boilerplate to run Apollo GraphQL server on Koa",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon . --exec babel-node",
+    "build": "babel src -d dist",
+    "start": "node dist",
+    "lint": "eslint lint ./src --fix"
+  },
+  "author": "Dan Radenkovic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radenkovic/koa-apollo-graphql.git"
+  },
+  "dependencies": {
+    "apollo-server-koa": "^1.2.0",
+    "dotenv": "^4.0.0",
+    "graphql": "^0.11.7",
+    "graphql-server-koa": "^1.2.0",
+    "graphql-tools": "^2.12.0",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.13.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
