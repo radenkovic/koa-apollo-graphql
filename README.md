@@ -4,6 +4,9 @@ Utterly minimal and nice starter / boilerplate for Apollo GraphQL server that
 runs on Koa.
 
 
+[![Build Status](https://travis-ci.org/radenkovic/koa-apollo-graphql.svg?branch=master)](https://travis-ci.org/radenkovic/koa-apollo-graphql)
+
+
 ![Apollo GraphQL, Koa Server](https://i.imgur.com/kWj1qHm.png)
 
 
