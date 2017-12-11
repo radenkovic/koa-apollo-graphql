@@ -7,7 +7,7 @@ cache:
     - node_modules
   
 before_script:
-  - yarn add -g babel-cli
+  - npm i -g babel-cli
   
 script: 
   - yarn run lint
