@@ -3,8 +3,8 @@ import KoaRouter from 'koa-router';
 import koaBody from 'koa-bodyparser';
 import { graphqlKoa, graphiqlKoa } from 'apollo-server-koa';
 import { makeExecutableSchema } from 'graphql-tools';
-import typeDefs from './typeDefs';
-import resolvers from './resolvers';
+import typeDefs from 'schema/typeDefs';
+import resolvers from 'schema/resolvers';
 
 require('dotenv').config();
 
