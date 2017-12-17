@@ -18,7 +18,7 @@
   "dependencies": {
     "apollo-server-koa": "^1.2.0",
     "dotenv": "^4.0.0",
-    "graphql": "^0.11.7",
+    "graphql": "^0.12.3",
     "graphql-server-koa": "^1.2.0",
     "graphql-tools": "^2.12.0",
     "koa": "^2.4.1",
